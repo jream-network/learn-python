@@ -1,0 +1,33 @@
+# What is VirtualEnv?
+# --------------------
+# - Container for the Python Binaries you have installed
+# - An isolated instance of Python, and any packages you add
+# - You can think of it like an Apache VirtualHost in some respects.
+
+# Setup
+# -------
+$ pip install virtualenv
+$ virtualenv env
+
+# Activate Enviroment
+# ---------------------
+# Windows
+$ source env/Scripts/activate
+
+# Linux / Mac
+$ source env/bin/activate
+
+# Deactivate Environment
+# ------------------------
+$ deactivate
+
+# Install Flask
+# (When VirtualEnv is enabled)
+# ------------------------------------------
+$ pip install flask
+
+# Install From a requirements file (Recommended)
+# (When VirtualEnv is enabled)
+# ------------------------------------------
+$ pip install -r requirements.txt
+

@@ -1,0 +1,23 @@
+DRY:    Don't Repeat yourself
+KISS:   Keep It Super Simple
+        "Simplicity is a prerequisite for reliability".
+        Edsger Dijkstra
+
+"Perfecting oneself is as much unlearning as it is learning."
+
+Trial and Error, Testing and Failing.
+
+Class User
+    def create():
+        pass
+
+    def update():
+        pass
+
+Class Note
+    def create():
+        pass
+
+    def update():
+        pass
+
