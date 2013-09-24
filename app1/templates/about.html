@@ -1,0 +1,22 @@
+{% extends "base/sub.html" %}
+
+{% block jumbo %}
+Welcome to the about page!
+{% endblock %}
+
+{% block content %}
+
+    <p>
+    My name is {{ data.name }} and I am {{ data.age }}.
+    </p>
+
+    <p>
+    This is where my content is about me.
+    </p>
+
+<h2>Cheezy Way to test Form</h2>
+<form method="post" action="{{ url_for('test') }}">
+    <input type="submit" />
+</form>
+
+{% endblock %}
